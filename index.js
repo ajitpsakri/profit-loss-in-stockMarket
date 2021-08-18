@@ -12,6 +12,7 @@ const lossImage = document.querySelector("#loss-image")
 console.log(leftMessage)
 submitButton.addEventListener('click', function () {
     if (costPrice.value > 0 && numberOfShares.value > 0 && sellingPrice.value > 0) {
+        leftMessage.style.display = "none"
         loading.style.display = "block";
         message.style.display = "none";
         profitImage.style.display = "none";
