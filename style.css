@@ -1,0 +1,62 @@
+:root{
+    --primary-color:#121212;
+    --secondary-color:#383838;
+}
+body{
+    margin-top: 7rem;
+    background-color: var(--primary-color);
+    color: white;
+    height: 500px;
+}
+
+.left,.right{
+    text-align: center;
+    width: 49%;
+    padding-top: 0.6rem;
+}
+.left{
+    background-color: var(--secondary-color);
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 6px var(--secondary-color);
+    border-radius: 0.6rem;
+}
+.right{
+   margin-left: auto;
+   position: relative;
+   bottom: 19.5rem;
+   padding-bottom: 10px;
+}
+.left,#loading{
+    margin-right: auto;
+}
+#loading{
+    width:25%;
+    margin: auto;
+    margin-top: 4rem;
+}
+input{
+    width: 300px;
+    margin: 0.5rem 0rem;
+    height: 30px;
+    background-color: var(--secondary-color);
+    color:white
+}
+button{
+    height: 30px;
+    width: 310px;
+    margin-top: 5px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+#profit-image{
+    width: 60%;
+    margin-left: 5rem;
+}
+
+#loss-image{
+    width: 60%;
+    margin-left: 9rem;
+}
+#message{
+    margin:0px;
+}
